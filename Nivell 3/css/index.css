@@ -1,0 +1,39 @@
+body {
+    background-color: grey;
+}
+
+#app {
+    width: 400px;
+    margin: auto; 
+    background-color: rgb(219, 121, 40);
+    padding: 20px 0;
+}
+
+#salida {
+    width: 90%;
+    height: 500px;
+    padding: 10px;
+    overflow: auto;
+    margin: auto;
+    background-color: lightgray;
+    color: black;
+}
+
+#botons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 1.2em;
+}
+
+button:first-of-type {
+    margin-top: 30px;
+}
